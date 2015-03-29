@@ -17,7 +17,8 @@ Composable
 
 Our Hello world.
 
-<code>
+
+
 <script>
 /** @jsx React.Dom */
 
@@ -31,4 +32,3 @@ React.renderComponent(<Hello name="world" />,
 	document.body);
 
 </script>
-</code>
