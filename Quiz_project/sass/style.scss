@@ -1,0 +1,32 @@
+// Screen
+// ======
+
+@import "grids";
+@import "susy";
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+);
+
+
+body { @include container(80em); }
+nav { @include span(25%); } 
+
+
+.content {
+  float: left;
+  margin-left: gutter();
+  margin-right: gutter();
+  padding: 3em;
+}
+
+.content_sec {
+  float: left;
+  margin-left: gutter();
+  margin-right: gutter();
+  padding: 3em;
+}

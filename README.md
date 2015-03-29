@@ -1,4 +1,4 @@
-# React_Exercise
+# React Exercise
 Building a widget in React. Play it!
 
 
@@ -18,8 +18,6 @@ Composable
 Our Hello world.
 
 
-<code>
-
 	var Hello = React.createClass({
 		render: function(){
 			return <div>Hello {this.props.name}</div>
@@ -29,4 +27,8 @@ Our Hello world.
 	React.renderComponent(<Hello name="world" />, 
 		document.body);
 
-</code>
+
+Props and State, are passed to the Render.
+Model + Component = DOM.
+
+The rendered DOM can generate Events.
