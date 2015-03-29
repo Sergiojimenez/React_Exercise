@@ -20,13 +20,13 @@ Our Hello world.
 
 <code>
 
-var Hello = React.createClass({
-	render: function(){
-		return <div>Hello {this.props.name}</div>
-	}
-});	
+	var Hello = React.createClass({
+		render: function(){
+			return <div>Hello {this.props.name}</div>
+		}
+	});	
 
-React.renderComponent(<Hello name="world" />, 
-	document.body);
+	React.renderComponent(<Hello name="world" />, 
+		document.body);
 
 </code>
