@@ -18,6 +18,7 @@ Composable
 Our Hello world.
 
 
+<code>
 
 var Hello = React.createClass({
 	render: function(){
@@ -28,4 +29,4 @@ var Hello = React.createClass({
 React.renderComponent(<Hello name="world" />, 
 	document.body);
 
-
+</code>
