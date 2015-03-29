@@ -1,23 +1,4 @@
-# React_Exercise
-Building a widget in React. Play it!
 
-
-Speed!
-
-	React rends in 60 fps 
-	Render < 16ms
-
-Declarative
-
-	Easier to reason about
-	Easier to prevent bugs
-
-Composable
-
-
-Our Hello world.
-
-<code>
 <script>
 /** @jsx React.Dom */
 
@@ -31,4 +12,5 @@ React.renderComponent(<Hello name="world" />,
 	document.body);
 
 </script>
-</code>
+
+ 
