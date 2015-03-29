@@ -19,9 +19,6 @@ Our Hello world.
 
 
 
-<script>
-/** @jsx React.Dom */
-
 var Hello = React.createClass({
 	render: function(){
 		return <div>Hello {this.props.name}</div>
@@ -31,4 +28,4 @@ var Hello = React.createClass({
 React.renderComponent(<Hello name="world" />, 
 	document.body);
 
-</script>
+
